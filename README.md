@@ -3,13 +3,13 @@
 [![VS Code Extension](https://img.shields.io/badge/VS_Code-Extension-blue?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python Support](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Downloads](https://img.shields.io/badge/downloads-v1.0.1-orange)](https://github.com/w4simg/mimic/releases/latest)
+[![Downloads](https://img.shields.io/badge/downloads-v1.0.2-orange)](https://github.com/w4simg/mimic/releases/latest)
 
 A professional, AST-based Python code obfuscation extension for Visual Studio Code. Protect your Python source code, proprietary algorithms, and IP from reverse engineering with advanced obfuscation techniques.
 
 ---
 
-### [📦 Download the Latest VSIX Extension (v1.0.1)](https://github.com/w4simg/mimic/releases/download/v1.0.1/mimic-obfuscator-1.0.1.vsix)
+### [📦 Download the Latest VSIX Extension (v1.0.2)](https://github.com/w4simg/mimic/releases/download/v1.0.2/mimic-obfuscator-1.0.2.vsix)
 
 ---
 
