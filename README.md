@@ -3,20 +3,20 @@
 [![VS Code Extension](https://img.shields.io/badge/VS_Code-Extension-blue?logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python Support](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Downloads](https://img.shields.io/badge/downloads-v1.0.2-orange)](https://github.com/w4simg/mimic/releases/latest)
+[![Downloads](https://img.shields.io/badge/downloads-v1.0.3-orange)](https://github.com/w4simg/mimic/releases/latest)
 
 A professional, AST-based Python code obfuscation extension for Visual Studio Code. Protect your Python source code, proprietary algorithms, and IP from reverse engineering with advanced obfuscation techniques.
 
 ---
 
-### [📦 Download the Latest VSIX Extension (v1.0.2)](https://github.com/w4simg/mimic/releases/download/v1.0.2/mimic-obfuscator-1.0.2.vsix)
+### [📦 Download the Latest VSIX Extension (v1.0.3)](https://github.com/w4simg/mimic/releases/download/v1.0.3/mimic-obfuscator-1.0.3.vsix)
 
 ---
 
 ## ✨ Features
 
 - **AST-Based Obfuscation:** Safely parses and modifies Python Abstract Syntax Trees (AST) rather than simple regex or string replacement, ensuring syntactical correctness.
-- **Multiple Obfuscation Levels:** Choose from Basic (stripping documentation) to Extreme (control-flow flattening and anti-AI renaming).
+- **Multiple Obfuscation Levels:** Choose from Basic (stripping documentation) to Extreme & Anti-AI Bulletproof (control-flow flattening, anti-AI renaming, and dynamic polymorphic armor).
 - **Custom Identifier Renaming Styles:** Rename variables, functions, and classes with confusing, hexadecimal, or Chinese/English mixed characters.
 - **Flexible Scope:** Obfuscate a single Python file or an entire project directory recursively.
 - **VS Code Context Menu Integration:** Trigger obfuscation directly from the explorer tree or editor window.
@@ -33,12 +33,12 @@ You can install the `.vsix` file in either of two ways:
 2. Open the Extensions View (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 3. Click the `...` (More Actions) button in the top-right corner of the Extensions panel.
 4. Select **Install from VSIX...** from the dropdown menu.
-5. Choose the downloaded `mimic-obfuscator-1.0.0.vsix` file and click **Install**.
+5. Choose the downloaded `mimic-obfuscator-1.0.3.vsix` file and click **Install**.
 
 ### Option B: Via Command Line
 Run the following command in your terminal:
 ```bash
-code --install-extension mimic-obfuscator-1.0.0.vsix
+code --install-extension mimic-obfuscator-1.0.3.vsix
 ```
 
 ---
@@ -80,8 +80,9 @@ Mimic allows you to customize the Python interpreter path if it differs from the
 |---|---|---|
 | **1** | **Basic** | Strips comments and docstrings. Keeps identifiers unchanged. |
 | **2** | **Medium** | Strips comments/docstrings, renames local variables, and escapes string literals. |
-| **3** | **Strong** | Strips comments/docstrings, renames both global and local identifiers, and XOR encrypts string literals. |
-| **4** | **Extreme** | Strong + control flow flattening + math obfuscation + builtin function hiding (anti-decompiler & anti-AI analysis). |
+| **3** | **Strong** | Strips comments/docstrings, renames both global and local identifiers, and multi-key XOR encrypts string literals. |
+| **4** | **Extreme** | Strong + control flow flattening + math obfuscation + builtin function hiding. |
+| **5** | **Anti-AI / Bulletproof** | Extreme AST + Polymorphic Dynamic Armor Shield. Completely undecodable by ChatGPT, Claude, Copilot, or static AI analysis. |
 
 ### Renaming Styles
 
